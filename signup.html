@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Sign Up</title>
+  </head>
+  <body>
+    <div class="container">
+        <div class="header">
+            <h1>Sign Up</h1>
+        </div>
+
+        <div class="form">
+            <form action="./php/process-signup.php" method="post" novalidate>
+                <input 
+                    type="text" 
+                    id="username" 
+                    name="username" 
+                    autocomplete="off"
+                    placeholder="Username"/>
+                <input 
+                    type="email" 
+                    id="email" 
+                    name="email"
+                    autocomplete="off"
+                    placeholder="Email"/>
+                <input
+                    type="password"
+                    id="password"
+                    name="password"
+                    placeholder="password"/>
+                <input
+                    type="password"
+                    id="checker"
+                    name="checker"
+                    placeholder="confirm-password"/>
+                <p>Already Signed Up? <a href="php/login.php">Sign In</a></p>
+                <div class="button">
+                    <button type="submit">Sign Up</button>
+                </div>
+            </form>
+        </div>
+    </div>
+  </body>
+</html>
