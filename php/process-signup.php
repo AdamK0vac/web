@@ -54,7 +54,7 @@ $stmt->bind_param("sss",
 try
 {
     $stmt->execute();
-    header("Location: ../signup-success.html"); // Redirection to main site
+    header("Location: ../signup-success.php"); // Redirection to main site
     exit;
 }
 catch(mysqli_sql_exception $e)

@@ -23,8 +23,11 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
             exit;
         }
     }
+    else
+    {    
+        $is_invalid = true;
+    }
 }
-$is_invalid = true
 
 ?>
 
@@ -62,7 +65,7 @@ $is_invalid = true
                 id="password"
                 name="password"
                 placeholder="password"/>
-            <p>Want to Sign Up? <a href="../signup.html">Sign Up</a></p>
+            <p>Don't have an account? <a href="../signup.html">Sign Up</a></p>
             <div class="button">
                 <button type="submit">Sign In</button>
             </div>

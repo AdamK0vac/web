@@ -1,0 +1,38 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img {
+    height: 50%;
+    width: 50%;
+    border-radius: 5vh;
+}
+
+.info {
+    width: 400px;
+    height: 470px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info p {
+    margin-left: 20px;
+}
+
+.name {
+    display: block;
+}
+
+.school {
+    display: block;
+    margin-top: 5px;
+}
+
+.address {
+    display: inline-block;
+    margin-left: 20px;
+}

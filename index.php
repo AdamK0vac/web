@@ -10,7 +10,7 @@ include "./php/navigation.php";
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css">
-    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/slider.css">
     <title>Home</title>
 </head>
 <body>
@@ -23,6 +23,14 @@ include "./php/navigation.php";
         responsibilities of caring for endangered animals. Each purchase supports global conservation efforts, 
         helping to protect and sustain these magnificent animals for future generations.
     </p>
+    <div id="slider">
+        <figure>
+            <img src="assets/images/slider-img1.jpg" alt="tiger">
+            <img src="assets/images/slider-img2.jpg" alt="dragon">
+            <img src="assets/images/slider-img3.jpg" alt="parrot">
+            <img src="assets/images/slider-img4.png" alt="bear">
+        </figure>
+    </div>
 
 </body>
 </html>
